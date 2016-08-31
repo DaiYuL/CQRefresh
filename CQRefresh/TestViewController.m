@@ -27,6 +27,8 @@
     _dataArray = @[@"内",@"涵",@"段",@"子"].mutableCopy;
     
     [self tableView];
+    
+    [self.tableView.mj_header beginRefreshing];
 }
 
 - (UITableView *)tableView {
