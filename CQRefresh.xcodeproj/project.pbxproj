@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EEC697455FB202F5A6BF648 /* libPods-CQRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 255403C365304E20B4DE817A /* libPods-CQRefresh.a */; };
+		8F3E4FFB1D76A58B00E083D6 /* CQMJPullHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E4FFA1D76A58B00E083D6 /* CQMJPullHeader.m */; };
+		8F3E50061D76B0CF00E083D6 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3E50051D76B0CF00E083D6 /* TestViewController.m */; };
+		8F3E50101D76D93B00E083D6 /* refresh_head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E50081D76D93B00E083D6 /* refresh_head@2x.png */; };
+		8F3E50111D76D93B00E083D6 /* refresh_head@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E50091D76D93B00E083D6 /* refresh_head@3x.png */; };
+		8F3E50121D76D93B00E083D6 /* refresh_head_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E500A1D76D93B00E083D6 /* refresh_head_2@2x.png */; };
+		8F3E50131D76D93B00E083D6 /* refresh_head_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E500B1D76D93B00E083D6 /* refresh_head_2@3x.png */; };
+		8F3E50141D76D93B00E083D6 /* refresh_head_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E500C1D76D93B00E083D6 /* refresh_head_3@2x.png */; };
+		8F3E50151D76D93B00E083D6 /* refresh_head_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E500D1D76D93B00E083D6 /* refresh_head_3@3x.png */; };
+		8F3E50161D76D93B00E083D6 /* refresh_head_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E500E1D76D93B00E083D6 /* refresh_head_4@2x.png */; };
+		8F3E50171D76D93B00E083D6 /* refresh_head_4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F3E500F1D76D93B00E083D6 /* refresh_head_4@3x.png */; };
 		8F9259A41D75644500E66A8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9259A31D75644500E66A8D /* main.m */; };
 		8F9259A71D75644500E66A8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9259A61D75644500E66A8D /* AppDelegate.m */; };
-		8F9259AA1D75644500E66A8D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9259A91D75644500E66A8D /* ViewController.m */; };
 		8F9259AD1D75644500E66A8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9259AB1D75644500E66A8D /* Main.storyboard */; };
 		8F9259AF1D75644500E66A8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F9259AE1D75644500E66A8D /* Assets.xcassets */; };
 		8F9259B21D75644500E66A8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F9259B01D75644500E66A8D /* LaunchScreen.storyboard */; };
 		8F9259BD1D75644500E66A8D /* CQRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9259BC1D75644500E66A8D /* CQRefreshTests.m */; };
 		8F9259C81D75644500E66A8D /* CQRefreshUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9259C71D75644500E66A8D /* CQRefreshUITests.m */; };
+		8FD425F11D7594C20066795A /* CQRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD425F01D7594C20066795A /* CQRefreshHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +46,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B29B066D9EDE90704412D95 /* Pods-CQRefresh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQRefresh.release.xcconfig"; path = "Pods/Target Support Files/Pods-CQRefresh/Pods-CQRefresh.release.xcconfig"; sourceTree = "<group>"; };
+		1C0C4D5A9E97493A93841F21 /* Pods-CQRefresh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQRefresh.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CQRefresh/Pods-CQRefresh.debug.xcconfig"; sourceTree = "<group>"; };
+		255403C365304E20B4DE817A /* libPods-CQRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CQRefresh.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F3E4FF91D76A58B00E083D6 /* CQMJPullHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQMJPullHeader.h; sourceTree = "<group>"; };
+		8F3E4FFA1D76A58B00E083D6 /* CQMJPullHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQMJPullHeader.m; sourceTree = "<group>"; };
+		8F3E50041D76B0CF00E083D6 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8F3E50051D76B0CF00E083D6 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8F3E50081D76D93B00E083D6 /* refresh_head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head@2x.png"; sourceTree = "<group>"; };
+		8F3E50091D76D93B00E083D6 /* refresh_head@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head@3x.png"; sourceTree = "<group>"; };
+		8F3E500A1D76D93B00E083D6 /* refresh_head_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head_2@2x.png"; sourceTree = "<group>"; };
+		8F3E500B1D76D93B00E083D6 /* refresh_head_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head_2@3x.png"; sourceTree = "<group>"; };
+		8F3E500C1D76D93B00E083D6 /* refresh_head_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head_3@2x.png"; sourceTree = "<group>"; };
+		8F3E500D1D76D93B00E083D6 /* refresh_head_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head_3@3x.png"; sourceTree = "<group>"; };
+		8F3E500E1D76D93B00E083D6 /* refresh_head_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head_4@2x.png"; sourceTree = "<group>"; };
+		8F3E500F1D76D93B00E083D6 /* refresh_head_4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh_head_4@3x.png"; sourceTree = "<group>"; };
 		8F92599F1D75644500E66A8D /* CQRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CQRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9259A31D75644500E66A8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8F9259A51D75644500E66A8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8F9259A61D75644500E66A8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8F9259A81D75644500E66A8D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8F9259A91D75644500E66A8D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8F9259AC1D75644500E66A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F9259AE1D75644500E66A8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F9259B11D75644500E66A8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +75,9 @@
 		8F9259C31D75644500E66A8D /* CQRefreshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQRefreshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F9259C71D75644500E66A8D /* CQRefreshUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CQRefreshUITests.m; sourceTree = "<group>"; };
 		8F9259C91D75644500E66A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F9259D61D7569CC00E66A8D /* CQRefresh-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CQRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		8FD425EF1D7594C20066795A /* CQRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQRefreshHeaderView.h; sourceTree = "<group>"; };
+		8FD425F01D7594C20066795A /* CQRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQRefreshHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEC697455FB202F5A6BF648 /* libPods-CQRefresh.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +106,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8B82BEE47A8BB4F967791F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C0C4D5A9E97493A93841F21 /* Pods-CQRefresh.debug.xcconfig */,
+				1B29B066D9EDE90704412D95 /* Pods-CQRefresh.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		236A9E134086D8E164CAEBF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				255403C365304E20B4DE817A /* libPods-CQRefresh.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F3E50071D76D93B00E083D6 /* refresh Image */ = {
+			isa = PBXGroup;
+			children = (
+				8F3E50081D76D93B00E083D6 /* refresh_head@2x.png */,
+				8F3E50091D76D93B00E083D6 /* refresh_head@3x.png */,
+				8F3E500A1D76D93B00E083D6 /* refresh_head_2@2x.png */,
+				8F3E500B1D76D93B00E083D6 /* refresh_head_2@3x.png */,
+				8F3E500C1D76D93B00E083D6 /* refresh_head_3@2x.png */,
+				8F3E500D1D76D93B00E083D6 /* refresh_head_3@3x.png */,
+				8F3E500E1D76D93B00E083D6 /* refresh_head_4@2x.png */,
+				8F3E500F1D76D93B00E083D6 /* refresh_head_4@3x.png */,
+			);
+			path = "refresh Image";
+			sourceTree = "<group>";
+		};
 		8F9259961D75644500E66A8D = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +145,8 @@
 				8F9259BB1D75644500E66A8D /* CQRefreshTests */,
 				8F9259C61D75644500E66A8D /* CQRefreshUITests */,
 				8F9259A01D75644500E66A8D /* Products */,
+				1E8B82BEE47A8BB4F967791F /* Pods */,
+				236A9E134086D8E164CAEBF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +163,15 @@
 		8F9259A11D75644500E66A8D /* CQRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				8F3E50071D76D93B00E083D6 /* refresh Image */,
 				8F9259A51D75644500E66A8D /* AppDelegate.h */,
 				8F9259A61D75644500E66A8D /* AppDelegate.m */,
-				8F9259A81D75644500E66A8D /* ViewController.h */,
-				8F9259A91D75644500E66A8D /* ViewController.m */,
+				8F3E50041D76B0CF00E083D6 /* TestViewController.h */,
+				8F3E50051D76B0CF00E083D6 /* TestViewController.m */,
+				8FD425EF1D7594C20066795A /* CQRefreshHeaderView.h */,
+				8FD425F01D7594C20066795A /* CQRefreshHeaderView.m */,
+				8F3E4FF91D76A58B00E083D6 /* CQMJPullHeader.h */,
+				8F3E4FFA1D76A58B00E083D6 /* CQMJPullHeader.m */,
 				8F9259AB1D75644500E66A8D /* Main.storyboard */,
 				8F9259AE1D75644500E66A8D /* Assets.xcassets */,
 				8F9259B01D75644500E66A8D /* LaunchScreen.storyboard */,
@@ -118,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				8F9259A31D75644500E66A8D /* main.m */,
+				8F9259D61D7569CC00E66A8D /* CQRefresh-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8F9259CC1D75644500E66A8D /* Build configuration list for PBXNativeTarget "CQRefresh" */;
 			buildPhases = (
+				5D45DF6252733CED8304F82B /* [CP] Check Pods Manifest.lock */,
 				8F92599B1D75644500E66A8D /* Sources */,
 				8F92599C1D75644500E66A8D /* Frameworks */,
 				8F92599D1D75644500E66A8D /* Resources */,
+				F8B3D15BB75428B92D47C8EB /* [CP] Embed Pods Frameworks */,
+				BD93C77B511B7F6C8053D6DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +314,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3E50141D76D93B00E083D6 /* refresh_head_3@2x.png in Resources */,
 				8F9259B21D75644500E66A8D /* LaunchScreen.storyboard in Resources */,
+				8F3E50171D76D93B00E083D6 /* refresh_head_4@3x.png in Resources */,
+				8F3E50111D76D93B00E083D6 /* refresh_head@3x.png in Resources */,
 				8F9259AF1D75644500E66A8D /* Assets.xcassets in Resources */,
+				8F3E50151D76D93B00E083D6 /* refresh_head_3@3x.png in Resources */,
+				8F3E50131D76D93B00E083D6 /* refresh_head_2@3x.png in Resources */,
+				8F3E50161D76D93B00E083D6 /* refresh_head_4@2x.png in Resources */,
+				8F3E50101D76D93B00E083D6 /* refresh_head@2x.png in Resources */,
 				8F9259AD1D75644500E66A8D /* Main.storyboard in Resources */,
+				8F3E50121D76D93B00E083D6 /* refresh_head_2@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +344,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D45DF6252733CED8304F82B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD93C77B511B7F6C8053D6DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CQRefresh/Pods-CQRefresh-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B3D15BB75428B92D47C8EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CQRefresh/Pods-CQRefresh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8F92599B1D75644500E66A8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F9259AA1D75644500E66A8D /* ViewController.m in Sources */,
+				8F3E4FFB1D76A58B00E083D6 /* CQMJPullHeader.m in Sources */,
 				8F9259A71D75644500E66A8D /* AppDelegate.m in Sources */,
 				8F9259A41D75644500E66A8D /* main.m in Sources */,
+				8F3E50061D76B0CF00E083D6 /* TestViewController.m in Sources */,
+				8FD425F11D7594C20066795A /* CQRefreshHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +542,11 @@
 		};
 		8F9259CD1D75644500E66A8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0C4D5A9E97493A93841F21 /* Pods-CQRefresh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CQRefresh/CQrefresh-Prefix.pch";
 				INFOPLIST_FILE = CQRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chaoqun.CQRefresh;
@@ -424,8 +556,11 @@
 		};
 		8F9259CE1D75644500E66A8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B29B066D9EDE90704412D95 /* Pods-CQRefresh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CQRefresh/CQrefresh-Prefix.pch";
 				INFOPLIST_FILE = CQRefresh/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chaoqun.CQRefresh;
@@ -498,6 +633,7 @@
 				8F9259CE1D75644500E66A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F9259CF1D75644500E66A8D /* Build configuration list for PBXNativeTarget "CQRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +642,7 @@
 				8F9259D11D75644500E66A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8F9259D21D75644500E66A8D /* Build configuration list for PBXNativeTarget "CQRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +651,7 @@
 				8F9259D41D75644500E66A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

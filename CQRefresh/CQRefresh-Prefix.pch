@@ -1,0 +1,25 @@
+//
+//  CQRefresh-Prefix.pch
+//  CQRefresh
+//
+//  Created by 超群 on 16/8/30.
+//  Copyright © 2016年 超群. All rights reserved.
+//
+
+#ifndef CQRefresh_Prefix_pch
+#define CQRefresh_Prefix_pch
+
+#ifdef __OBJC__
+
+#define kScreen_width [[UIScreen mainScreen] bounds].size.width
+#define kScreen_height [[UIScreen mainScreen] bounds].size.height
+
+#define STATUSBAR_HEIGHT    [[UIApplication sharedApplication] statusBarFrame].size.height
+
+#define SYSTEM_VERSION    [[[UIDevice currentDevice] systemVersion] floatValue]
+#define NAVBAR_HEIGHT       (44.f + ((SYSTEM_VERSION >= 7) ? STATUSBAR_HEIGHT : 0))
+
+
+#endif
+
+#endif /* CQRefresh_Prefix_pch */
